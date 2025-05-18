@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>index</title>
+
+<link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <h1>Thais Guero Fernandes</h1>
+        <h3 id="subtitulo">Sobre mim:</h3>
+    <p>Me chamo Thais, tenho 29 anos, sou de Novo Hamburgo, RS. Sou filha de Nilva e Leandro. Trabalho nas Lojas Renner S.A. 
+    Meus interesses estão em tecnologia, cultura pop e música. Resolvi estudar banco de dados para me profissionalizar e crescer em minha carreira. Esta é minha
+    trajetória profissional: Minha trajetória profissional sempre foi focada em assistência, seja ao cliente, seja interna. 
+    Meu primeiro emprego foi um estágio onde era auxiliar administrativa registrando dados em sistema. 
+    Após, trabalhei como assistente administrativa, registrando ordens de compra e executando serviços para a empresa Randstad. 
+    Em meio à pandemia surgiu a oportunidade de trabalho temporário na Lojas Renner S.A., onde comecei como temporária de atendimento ao cliente, fui efetivada para 
+    trabalhar remoto ainda com atendimento. Hoje, ainda estou trabalhando neste emprego, como assistente porém com foco na parte financeira, realizando estornos, 
+    análises e contato com clientes. Já cursei Design Gráfico por alguns anos, então tenho uma babagem nessa direção, bem como já vendi produtos online, já tive lojinha
+    virtual, etc. No meu último emprego desenvolvi um interesse maior por tecnologia e finalmente resolvi voltar a estudar, então estou bem feliz com essa escolha e feliz
+    de estudar na Uninter novamente!</p>
+
+    <h3 id="subtitulo">Hobbies</h3>
+    <ul class="listahobbies">
+        <li>Livros</li>
+        <li>Jogos</li>
+        <li>Crochê</li>
+    </ul>
+
+    <img class=valheim src="imagens/valheim.jpg" alt="valheim" height="300">
+    <br><br>
+    <table class="paises" border="10px">
+        <caption><h3>Países que eu gostaria de conhecer</h3></caption>
+        <tr>
+            <td class="nomedopais">Itália</td>
+            <td><img src="imagens/italia.jpeg" alt="italia" width="300"></td>
+        </tr>
+        <tr>
+            <td class="nomedopais">Japão</td>
+            <td><img src="imagens/japao.jpg" alt="japao" width="300"></td>
+        </tr>
+        <tr>
+            <td class="nomedopais">China</td>
+            <td><img src="imagens/china.jpg" alt="china" width="300"></td>
+        </tr>
+    </table>
+
+    <h3 id="subtitulo">Tenho jogado bastante o jogo Magic: The Gathering, então esse é meu site preferido no momento:</h3>
+    <a href="https://archidekt.com/"> Archidekt </a> 
+    <br>
+    <p>É muito interessante por me permite montar decks com estatísticas em tempo real.</p>
+    <br>
+
+    <button id="meuBotao" onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+    
+    <div id="mensagem" style="margin-top: 10px;"></div>
+
+    <script>
+        function mostrarMensagem() {
+            const mensagem = "Não importa o quão difícil seja o seu caminho agora, cada passo que você dá está te levando mais perto dos seus sonhos.";
+            
+            const elementoMensagem = document.getElementById("mensagem");
+            
+            elementoMensagem.innerHTML = `<p>${mensagem}</p>`;
+        }
+    </script>
+
+</body>
+</html>
