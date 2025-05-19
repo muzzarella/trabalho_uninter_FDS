@@ -1,0 +1,75 @@
+h1{
+    color: #EB5B00;text-align: center;
+}
+
+#subtitulo{
+    color: #143D60;
+    text-decoration-line:underline;
+}
+
+p{
+    font-size:18px; text-align: justify;
+}
+
+.nomedopais{
+    width: 50%; text-align: center;
+}
+
+body{
+    background-color:#d8f5b6;
+    font-family: Cambria;
+}
+
+.listahobbies li{
+            padding: 10px;
+        }
+
+.valheim {
+    border-radius: 10px;
+}
+
+.paises{
+    border-color: black;
+}
+
+.nomedopais{
+    font-size: 30px;
+    text-decoration:solid;
+    text-decoration-line: underline;
+    color: #143D60
+}
+
+a:hover{
+    color: #EB5B00;
+}
+
+a{
+    font-size: 30px;
+}
+
+ #mensagem {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-left: 5px solid #4682b4;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #36648b;
+}
